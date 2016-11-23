@@ -10,7 +10,7 @@ var Nav = new React.createClass({
           <ul className="menu">
             <li className="menu-text">React Weather App</li>
 
-            <li><Link to="/timer" activeClassName="active-link" activeStyle={{fontWeight: 'bold'}}>Timer</Link></li>
+            <li><Link to="/" activeClassName="active-link" activeStyle={{fontWeight: 'bold'}}>Timer</Link></li>
             <li><Link to="/countdown" activeClassName="active-link" activeStyle={{fontWeight: 'bold'}}>Countdown</Link></li>
           </ul>
         </div>
